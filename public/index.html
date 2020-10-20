@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Renowned Servers</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+
+    <script src="index.js"></script>
+
+</head>
+
+<body style="background-color: #141321;">
+    <div style="height: 100px; width: 100px;">
+        <img src="rscircularlogo.gif" style="width: 100%; height: 100%; border-radius: 50px ; border: 5px solid white;">
+    </div>
+
+    <div style="margin: auto; width: 50%;">
+        <div class="ui two item menu">
+            <a class="termItem item active">Terms and Conditions</a>
+            <a class="privacyItem item ">Privacy Policy</a>
+        </div>
+    </div>
+
+    <div style="padding: 100px;">
+        <div class="term">
+            <div class="ui huge header" style="color:white">Terms and Conditions</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Nisi lacus sed viverra tellus in hac habitasse. Nisl rhoncus mattis rhoncus urna neque viverra
+                justo nec ultrices. Euismod quis viverra nibh cras pulvinar mattis. In fermentum posuere urna nec tincidunt.
+                Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam. Gravida cum sociis natoque penatibus.
+                Phasellus vestibulum lorem sed risus ultricies. Sit amet risus nullam eget. Ante in nibh mauris cursus
+                mattis molestie. Viverra tellus in hac habitasse platea dictumst. Morbi tempus iaculis urna id volutpat
+                lacus laoreet non. Lectus arcu bibendum at varius vel pharetra vel. Fusce id velit ut tortor pretium viverra
+                suspendisse potenti. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Nulla
+                pharetra diam sit amet nisl suscipit adipiscing bibendum. Ut ornare lectus sit amet est placerat in. Egestas
+                tellus rutrum tellus pellentesque eu tincidunt.</p>    
+        </div>
+        <div class="privacy">
+            <div class="ui huge header" style="color:white">Privacy Policy</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Nisi lacus sed viverra tellus in hac habitasse. Nisl rhoncus mattis rhoncus urna neque viverra
+                justo nec ultrices. Euismod quis viverra nibh cras pulvinar mattis. In fermentum posuere urna nec tincidunt.
+                Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam. Gravida cum sociis natoque penatibus.
+                Phasellus vestibulum lorem sed risus ultricies. Sit amet risus nullam eget. Ante in nibh mauris cursus
+                mattis molestie. Viverra tellus in hac habitasse platea dictumst. Morbi tempus iaculis urna id volutpat
+                lacus laoreet non. Lectus arcu bibendum at varius vel pharetra vel. Fusce id velit ut tortor pretium viverra
+                suspendisse potenti. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Nulla
+                pharetra diam sit amet nisl suscipit adipiscing bibendum. Ut ornare lectus sit amet est placerat in. Egestas
+                tellus rutrum tellus pellentesque eu tincidunt.</p>    
+        </div>
+        <br>
+        <br>
+        <div class="ui labeled input">
+            <div class="ui label">
+                First Name
+            </div>
+            <input type="text" placeholder="Renowned" class="firstName">
+        </div>
+        <div class="ui labeled input">
+            <div class="ui label">
+                Last Name
+            </div>
+            <input type="text" placeholder="Servers" class="lastName">
+        </div>
+        <div class="ui labeled input">
+            <div class="ui label">
+                Email
+            </div>
+            <input type="text" placeholder="example@gmail.com" style="width: 300px" class="email">
+        </div>
+        <br>
+        <br>
+        <div class="ui checkbox">
+            <input type="checkbox" class="agree" isChecked="false">
+            <label style="color: white">I have read and agree to the Terms and Conditions and Privacy Policy.</label>
+        </div>
+        <div style="padding-top: 10px;">
+            <button class="ui inverted red button submit">Submit</button>
+        </div>
+        <div class="error" style="color: red;">
+            One of the fields is not filled out correctly
+        </div>
+    </div>
+    <div>
+        <form class="confirmation" action="updateRecord?foo=bar" method="post"></form>
+    </div>
+</body>
+
+</html>
