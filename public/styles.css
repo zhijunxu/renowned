@@ -4,6 +4,22 @@
     resize: none
 }
 
-p {
-    color: grey
+
+.active {
+    text-decoration: underline;
 }
+
+.active:hover {
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: RSFONT;
+    src: url(RSFONT.otf);
+}
+
+
+body div  ::-webkit-scrollbar-thumb {
+    background-color: white; 
+}
+
